@@ -12,7 +12,7 @@ st.markdown("Explore and analyze Pokémon stats in an interactive way!")
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\User\Downloads\pokemon.csv")
+    return pd.read_csv("pokemon.csv")
 
 df = load_data()
 
